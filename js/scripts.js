@@ -80,10 +80,3 @@ function CopyToClipboard(value, showNotification, notificationText) {
 	}
 }
 
-const con = document.getElementById("conn");
-
-
-const connect = () => {
-	window.ethereum.request({method: "eth_requestAccounts"})
-}
-con.addEventListener("click", connect);
